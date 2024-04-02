@@ -31,14 +31,14 @@ public class Number_Game{
                 System.out.println("Your guess is too high.");
                 System.out.println("Number of attempts left : "+n);
             }
-            System.out.println("Try again");
+            System.out.println("Try again\n");
         }
         if(n==0)
             System.out.println("You Lose !!");
             System.out.println("Correct Number : "+Number_To_Be_Guessed);
         int flag = 0;
-        System.out.println("Do you want to play another round ? ");
-        System.out.println("Enter 1 for yes \n Any other number for no : ");
+        System.out.println("\nDo you want to play another round ? ");
+        System.out.println("Enter 1 for yes \n Any other number for no : \n");
         flag = sc.nextInt();
         if (flag==1) {
             ++Number_Of_Rounds;

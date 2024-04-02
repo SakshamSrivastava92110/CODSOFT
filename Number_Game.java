@@ -15,14 +15,12 @@ public class Number_Game{
     }
     void play(){
         Number_To_Be_Guessed = obj.nextInt(100)+1;
-        int flag2 = 0;
         System.out.println("Guess a number between 1 and 100:");
         int n = 5;
         while (n!=0) {
             Guessed_Number = sc.nextInt();
             if (Guessed_Number == Number_To_Be_Guessed) {
                 System.out.println("Congratulations, you guessed the number! , You won");
-                flag2++;
                 break;
             } else if (Guessed_Number < Number_To_Be_Guessed) {
                 --n;
@@ -48,7 +46,7 @@ public class Number_Game{
             play();
         }
         else {
-            if(Number_Of_Rounds <= 3 && flag == 3)
+            if(Number_Of_Rounds <= 3 && flag == Number_Of_Rounds)
                 System.out.println("Your Score is 100 , Excellent");
             else if(Number_Of_Rounds > 3 && (flag/2 >= Number_Of_Rounds/2))
                 System.out.println("Your Score is 50 , Good");

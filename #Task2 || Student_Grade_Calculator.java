@@ -16,12 +16,11 @@ public class Student_Grade_Calculator {
         Average_Percentage = 0;
     }
     void input(){
-        System.out.println("Enter the Subjects : ");
-        for(int i=0 ; i<Subject.length ; i++)
+        System.out.println("Enter the Subject name and Marks : ");
+        for(int i=0 ; i<Subject.length ; i++){
             Subject[i] = sc.next();
-        System.out.println("Enter the marks in each subject : ");
-        for(int i=0 ; i<Marks.length ; i++)
             Marks[i] = sc.nextInt();
+        }
     }
     float calculate(){
         for(int i=0 ; i<Marks.length ; i++){

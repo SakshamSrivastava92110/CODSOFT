@@ -1,0 +1,14 @@
+📝 In the Student_Grade_Calculator class:
+
+💡 You start by prompting the user to enter the number of subjects.
+📚 Arrays are initialized to store subject names and marks, and other variables like total marks and average percentage are initialized.
+🔄 The input() method takes input for subjects' names and marks.
+🧮 The calculate() method calculates the total marks and average percentage based on the entered marks.
+📊 The Grade() method calculates the grade based on the average percentage.
+🖥️ The display() method prints out the total marks, average percentage, and grade.
+🖊️ In the main() method:
+
+🚀 An object of Student_Grade_Calculator class is created.
+📝 User inputs are taken using the input() method.
+🖥️ Results are displayed using the display() method.
+Overall, this program allows users to input marks for subjects, calculates their total marks, average percentage, and assigns a grade based on the percentage.

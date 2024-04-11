@@ -1,0 +1,17 @@
+👋 Welcome to the number guessing game! You're greeted with a welcome message and shown that it's the first round.
+
+🎲 Inside the `play()` method:
+1. 💡 A random number between 1 and 100 is generated for the player to guess.
+2. 🤔 You're prompted to guess the number.
+3. 🔢 You have 5 attempts to guess the number.
+4. 🔄 You keep guessing until you either get the number right or run out of attempts.
+5. 🏆 If you guess the correct number, you're congratulated and notified that you won.
+6. 😞 If you run out of attempts without guessing the correct number, you're informed that you lost and the correct number is revealed.
+7. 🔄 You're asked if you want to play another round. If you choose yes, the game starts a new round with an incremented round number. If you choose no, your score is calculated based on the number of rounds played.
+
+📊 The score calculation:
+- If you play 3 or fewer rounds and your choice matches the number of rounds played, you get a score of 100, which is excellent.
+- If you play more than 3 rounds and your choice divided by 2 is greater than or equal to the number of rounds played divided by 2, you get a score of 50, which is good.
+- Otherwise, you get a score of 0, which is bad.
+
+👋 At the end, the scanner is closed, and the game ends.

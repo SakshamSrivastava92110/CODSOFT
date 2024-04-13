@@ -1,0 +1,30 @@
+1. **Question Class**:
+   - This class defines a `Question` with three fields: `question` (the actual question), `options` (an array of strings representing multiple-choice options), and `correctOptionIndex` (an integer indicating the index of the correct option in the `options` array).
+   - The constructor initializes these fields when creating a new `Question` object.
+   - Getter methods (`getQuestion()`, `getOptions()`, `getCorrectOptionIndex()`) are provided to access the question details.
+
+2. **Quiz_Application Class**:
+   - This class manages the quiz application functionality.
+   - It includes fields for the list of questions (`questions`), the current question index (`currentQuestionIndex`), the user's score (`score`), a timer (`timer`), and a time limit constant (`TIME_LIMIT_SECONDS`).
+   - The constructor initializes these fields when creating a new `Quiz_Application` object.
+   - `startQuiz_Application()` method initiates the quiz by calling `displayNextQuestion()`.
+
+3. **Displaying Questions**:
+   - `displayNextQuestion()` method checks if there are more questions to display.
+   - If yes, it retrieves the current question from the list, displays it along with multiple-choice options, starts the timer, and waits for the user's input using `getUserAnswer()`.
+
+4. **Timer Implementation**:
+   - `startTimer()` method schedules a timer task using Java's `Timer` class. When the time limit is reached, it displays "Time's up!" and moves to the next question.
+
+5. **User Input and Answer Checking**:
+   - `getUserAnswer()` reads the user's input for the selected option.
+   - `checkAnswer()` compares the user's input with the correct option index for the current question. If correct, it increments the score; otherwise, it displays the correct answer.
+
+6. **End of Quiz**:
+   - `endQuiz_Application()` method cancels the timer, prints the quiz end message along with the user's score, and the total number of questions.
+
+7. **Main Class**:
+   - In the `Main` class, a list of `Question` objects is created with different questions, options, and correct answers.
+   - An instance of `Quiz_Application` is created with this list, and the quiz is started by calling `startQuiz_Application()`.
+
+Overall, this code creates a quiz application where questions are displayed one by one, users can select options within a time limit, and their score is calculated based on correct answers.

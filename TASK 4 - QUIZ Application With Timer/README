@@ -1,30 +1,28 @@
-1. **Question Class**:
-   - This class defines a `Question` with three fields: `question` (the actual question), `options` (an array of strings representing multiple-choice options), and `correctOptionIndex` (an integer indicating the index of the correct option in the `options` array).
-   - The constructor initializes these fields when creating a new `Question` object.
-   - Getter methods (`getQuestion()`, `getOptions()`, `getCorrectOptionIndex()`) are provided to access the question details.
+🚀 **Step 1: Define the Question Class**
+- The `Question` class holds information about each quiz question, including the question itself, multiple-choice options, and the index of the correct answer.
 
-2. **Quiz_Application Class**:
-   - This class manages the quiz application functionality.
-   - It includes fields for the list of questions (`questions`), the current question index (`currentQuestionIndex`), the user's score (`score`), a timer (`timer`), and a time limit constant (`TIME_LIMIT_SECONDS`).
-   - The constructor initializes these fields when creating a new `Quiz_Application` object.
-   - `startQuiz_Application()` method initiates the quiz by calling `displayNextQuestion()`.
+🧩 **Step 2: Create the Quiz_Application Class**
+- The `Quiz_Application` class manages the quiz flow, such as displaying questions, implementing timers, handling user answers, and calculating scores.
+- It uses a list of `Question` objects to store the quiz questions.
+- The `startQuiz_Application` method begins the quiz by displaying the first question.
 
-3. **Displaying Questions**:
-   - `displayNextQuestion()` method checks if there are more questions to display.
-   - If yes, it retrieves the current question from the list, displays it along with multiple-choice options, starts the timer, and waits for the user's input using `getUserAnswer()`.
+⏱️ **Step 3: Timer Implementation**
+- The `startTimer` method uses a `Timer` object to schedule a task that runs after a specified time limit (30 seconds in this case).
+- When the timer runs out, it moves to the next question automatically.
 
-4. **Timer Implementation**:
-   - `startTimer()` method schedules a timer task using Java's `Timer` class. When the time limit is reached, it displays "Time's up!" and moves to the next question.
+📝 **Step 4: Display and Get User Answer**
+- `displayNextQuestion` shows the current question and options to the user.
+- `getUserAnswer` reads the user's input (selected option) using a `Scanner`.
 
-5. **User Input and Answer Checking**:
-   - `getUserAnswer()` reads the user's input for the selected option.
-   - `checkAnswer()` compares the user's input with the correct option index for the current question. If correct, it increments the score; otherwise, it displays the correct answer.
+✔️ **Step 5: Check Answer and Score Calculation**
+- `checkAnswer` compares the user's answer to the correct answer and updates the score accordingly.
+- If the user's answer is correct, it adds one to the score.
+- If the user's answer is incorrect, it displays the correct answer.
 
-6. **End of Quiz**:
-   - `endQuiz_Application()` method cancels the timer, prints the quiz end message along with the user's score, and the total number of questions.
+🏁 **Step 6: End Quiz and Display Result**
+- `endQuiz_Application` stops the timer, prints a message indicating the end of the quiz, and displays the user's final score out of the total number of questions.
 
-7. **Main Class**:
-   - In the `Main` class, a list of `Question` objects is created with different questions, options, and correct answers.
-   - An instance of `Quiz_Application` is created with this list, and the quiz is started by calling `startQuiz_Application()`.
+✨ **Step 7: Main Class**
+- The `Main` class creates a list of questions and initializes the `Quiz_Application` class to start the quiz.
 
-Overall, this code creates a quiz application where questions are displayed one by one, users can select options within a time limit, and their score is calculated based on correct answers.
+Overall, this code implements a simple quiz application in Java that allows users to answer multiple-choice questions within a time limit and provides feedback on their performance at the end.

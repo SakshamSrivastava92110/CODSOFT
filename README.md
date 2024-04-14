@@ -34,7 +34,7 @@ Each program is contained in its respective directory. Follow the instructions b
 
 Navigate to the `TASK 1 - Number Guessing Game` directory:
 ```bash
-cd TASK 1 - Number Guessing Game
+cd "TASK 1 - Number Guessing Game"
 ```
 
 Compile the Java file:
@@ -53,7 +53,7 @@ Follow the on-screen instructions to play the Number Game!
 
 Navigate to the `TASK 2 - Student Grade Calculator` directory:
 ```bash
-cd TASK 2 - Student Grade Calculator
+cd "TASK 2 - Student Grade Calculator"
 ```
 
 Compile the Java file:
@@ -72,7 +72,7 @@ Input the grades and calculate the average!
 
 Navigate to the `TASK 3 - ATM Interface` directory:
 ```bash
-cd TASK 3 - ATM Interface
+cd "TASK 3 - ATM Interface"
 ```
 
 Compile the Java file:
@@ -91,7 +91,7 @@ Interact with the ATM interface to perform banking operations!
 
 Navigate to the `TASK 4 - Quiz Application` directory:
 ```bash
-cd TASK 4 - Quiz Application
+cd "TASK 4 - Quiz Application"
 ```
 
 Compile the Java file:

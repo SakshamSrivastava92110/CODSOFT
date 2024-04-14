@@ -32,9 +32,9 @@ Each program is contained in its respective directory. Follow the instructions b
 
 ### Number Game
 
-Navigate to the `Number_Game` directory:
+Navigate to the `TASK 1 - Number Guessing Game` directory:
 ```bash
-cd Number_Game
+cd TASK 1 - Number Guessing Game
 ```
 
 Compile the Java file:
@@ -44,16 +44,16 @@ javac Number_Game.java
 
 Run the program:
 ```bash
-java NumberGame
+java Number_Game
 ```
 
 Follow the on-screen instructions to play the Number Game!
 
 ### Student Grade Calculator
 
-Navigate to the `Student_Grade_Calculator` directory:
+Navigate to the `TASK 2 - Student Grade Calculator` directory:
 ```bash
-cd Student_Grade_Calculator
+cd TASK 2 - Student Grade Calculator
 ```
 
 Compile the Java file:
@@ -63,16 +63,16 @@ javac Student_Grade_Calculator.java
 
 Run the program:
 ```bash
-java StudentGradeCalculator
+java Student_Grade_Calculator
 ```
 
 Input the grades and calculate the average!
 
 ### ATM Interface
 
-Navigate to the `ATM_Interface` directory:
+Navigate to the `TASK 3 - ATM Interface` directory:
 ```bash
-cd ATM_Interface
+cd TASK 3 - ATM Interface
 ```
 
 Compile the Java file:
@@ -82,16 +82,16 @@ javac ATM_Interface.java
 
 Run the program:
 ```bash
-java ATMInterface
+java ATM_Interface
 ```
 
 Interact with the ATM interface to perform banking operations!
 
 ### Quiz Application
 
-Navigate to the `Quiz_Application` directory:
+Navigate to the `TASK 4 - Quiz Application` directory:
 ```bash
-cd Quiz_Application
+cd TASK 4 - Quiz Application
 ```
 
 Compile the Java file:
@@ -101,7 +101,7 @@ javac Quiz_Application.java
 
 Run the program:
 ```bash
-java QuizApplication
+java Quiz_Application
 ```
 
 Take the quiz, answer questions within the time limit, and see your final score!

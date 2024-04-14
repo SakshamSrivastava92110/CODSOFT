@@ -39,7 +39,7 @@ cd Number_Game
 
 Compile the Java file:
 ```bash
-javac NumberGame.java
+javac Number_Game.java
 ```
 
 Run the program:
@@ -58,7 +58,7 @@ cd Student_Grade_Calculator
 
 Compile the Java file:
 ```bash
-javac StudentGradeCalculator.java
+javac Student_Grade_Calculator.java
 ```
 
 Run the program:
@@ -77,7 +77,7 @@ cd ATM_Interface
 
 Compile the Java file:
 ```bash
-javac ATMInterface.java
+javac ATM_Interface.java
 ```
 
 Run the program:
@@ -96,7 +96,7 @@ cd Quiz_Application
 
 Compile the Java file:
 ```bash
-javac QuizApplication.java
+javac Quiz_Application.java
 ```
 
 Run the program:

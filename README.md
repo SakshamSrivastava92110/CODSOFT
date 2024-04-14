@@ -1,5 +1,8 @@
-Certainly! Here's an interactive README.md file for your GitHub repository containing the four Java programs: Number Game, Student Grade Calculator, ATM Interface, and Quiz Application.
+**Welcome to CodSoft Internship Projects Repository!**
 
+👋 Hey there! Welcome to the repository dedicated to the projects developed during the internship program at CodSoft. Below you'll find information about the three projects included in this repository: the Number Game, Student Grade Calculator, and ATM Interface.
+
+---
 ```markdown
 # CodeSoft Java Programs Repository
 
